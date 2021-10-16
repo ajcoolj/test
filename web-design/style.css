@@ -1,0 +1,22 @@
+.header-1{
+    color: #1db860;
+    background-color: beige;
+     border: 2px solid slategray;
+     padding: 5px;
+     padding-left: 10px;
+  
+  }
+  #my-header {
+    color: #00ff00;
+    margin-left: 15px;
+  }
+  
+  #image{
+    width: calc(100% - 20px);
+    margin-left: 10px;
+  }
+  
+  .p{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+  }
