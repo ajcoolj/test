@@ -7,8 +7,13 @@
     <title>Document</title>
 </head>
 <body>
-    <p id="input"></p>
-    <script>document.getElementById("input").innerHTML = window.location.search</script>
+    <p id="input" style="font-size: 50px; color: green"></p>
+    <script>
+    document.getElementById("input").innerHTML = window.location.search;
+    let params = new URLSearchParams(window.location.search)
+    var input = params.get("input")
+    document.getElementById("input").innerHTML = input
+    </script>
     <!--Relevant Stackoverflow & documentation:-->
     <!--https://stackoverflow.com/questions/46541404/getting-url-parameters-and-filter-out-a-specific-parameter-->
     <!--https://developer.mozilla.org/en-US/docs/Web/API/URLSearchParams/delete-->
